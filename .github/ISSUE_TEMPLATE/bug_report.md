@@ -1,22 +1,35 @@
 ---
 name: Bug Report
-about: Something isn't working as expected
+about: Report a bug or unexpected behavior
+title: '[BUG] '
 labels: bug
+assignees: ''
 ---
 
-## Describe the bug
-A clear description of the issue.
+## Describe the Bug
 
-## Command used
-```bash
-perf-sentinel ...
-```
+A clear and concise description of what the bug is.
 
-## Expected behavior
+## Steps to Reproduce
 
-## Actual behavior / error output
+1. Run `...`
+2. See error
+
+## Expected Behavior
+
+What you expected to happen.
+
+## Actual Behavior
+
+What actually happened. Include the full error output if applicable.
 
 ## Environment
-- OS:
-- Node version:
-- perf-sentinel version:
+
+- OS: [e.g. macOS 14, Ubuntu 22.04]
+- Node.js: [e.g. 20.11.0] (`node --version`)
+- Tool version: (`npx <tool> --version`)
+- Shell: [e.g. zsh, bash]
+
+## Additional Context
+
+Any other context, screenshots, or logs.

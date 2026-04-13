@@ -275,6 +275,12 @@ For detecting **gradual degradations** over many commits, the Pettitt test finds
 
 Before any statistical test, values outside `[Q1 - 1.5×IQR, Q3 + 1.5×IQR]` are removed. This handles common benchmark noise from GC pauses and OS scheduling jitter.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
 ## License
 
 MIT © PhoenixAI Hub

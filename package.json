@@ -15,7 +15,13 @@
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["performance", "benchmark", "ci", "regression", "testing"],
+  "keywords": [
+    "performance",
+    "benchmark",
+    "ci",
+    "regression",
+    "testing"
+  ],
   "author": "PhoenixAI Hub",
   "license": "MIT",
   "dependencies": {
@@ -32,10 +38,17 @@
     "typescript": "^5.3.3",
     "vitest": "^1.2.2"
   },
-  "files": ["dist", "README.md", "LICENSE"],
-  "engines": { "node": ">=18" },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/phoenix-assistant/perf-sentinel.git"
-  }
+  },
+  "homepage": "https://github.com/phoenix-assistant/perf-sentinel#readme"
 }
