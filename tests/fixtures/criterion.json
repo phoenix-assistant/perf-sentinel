@@ -1,0 +1,26 @@
+{
+  "mean": {
+    "confidence_interval": {
+      "lower_bound": 1200000,
+      "upper_bound": 1300000
+    },
+    "point_estimate": 1250000,
+    "standard_error": 25000
+  },
+  "median": {
+    "confidence_interval": {
+      "lower_bound": 1190000,
+      "upper_bound": 1290000
+    },
+    "point_estimate": 1240000,
+    "standard_error": 25000
+  },
+  "slope": {
+    "confidence_interval": {
+      "lower_bound": 1210000,
+      "upper_bound": 1280000
+    },
+    "point_estimate": 1245000,
+    "standard_error": 15000
+  }
+}

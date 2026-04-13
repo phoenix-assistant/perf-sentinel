@@ -1,0 +1,34 @@
+[
+  {
+    "benchmark": "com.example.MyBenchmark.testMethod",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 3,
+    "warmupIterations": 5,
+    "measurementIterations": 5,
+    "primaryMetric": {
+      "score": 1234.5,
+      "scoreError": 12.3,
+      "scoreConfidence": [1222.2, 1246.8],
+      "scorePercentiles": {
+        "0.0": 1200.0,
+        "50.0": 1234.5,
+        "99.0": 1260.0
+      },
+      "scoreUnit": "ns/op",
+      "rawData": [[1230, 1235, 1240, 1232, 1228]]
+    },
+    "secondaryMetrics": {}
+  },
+  {
+    "benchmark": "com.example.MyBenchmark.testAnotherMethod",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "primaryMetric": {
+      "score": 567.8,
+      "scoreUnit": "us/op"
+    },
+    "secondaryMetrics": {}
+  }
+]

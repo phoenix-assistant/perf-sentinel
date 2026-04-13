@@ -1,0 +1,55 @@
+{
+  "machine_info": {
+    "node": "test-machine",
+    "processor": "x86_64",
+    "machine": "x86_64",
+    "python_compiler": "GCC 9.3.0",
+    "python_implementation": "CPython",
+    "python_version": "3.9.0",
+    "python_build": ["default", "2020"],
+    "release": "5.4.0",
+    "system": "Linux",
+    "cpu_count": 4
+  },
+  "commit_info": {
+    "id": "abc123",
+    "time": "2024-01-01T00:00:00",
+    "dirty": false,
+    "project": "myproject"
+  },
+  "benchmarks": [
+    {
+      "name": "test_endpoint_latency",
+      "fullname": "tests/bench_test.py::test_endpoint_latency",
+      "params": null,
+      "stats": {
+        "min": 0.001,
+        "max": 0.005,
+        "mean": 0.002,
+        "stddev": 0.0005,
+        "rounds": 100,
+        "median": 0.0019,
+        "iqr": 0.001,
+        "q1": 0.0015,
+        "q3": 0.0025,
+        "iqr_outliers": 2,
+        "stddev_outliers": 5,
+        "outliers": "2;5",
+        "ld15iqr": 0.001,
+        "hd15iqr": 0.005,
+        "ops": 500,
+        "total": 0.2
+      }
+    },
+    {
+      "name": "test_db_query",
+      "fullname": "tests/bench_test.py::test_db_query",
+      "params": null,
+      "stats": {
+        "mean": 0.010,
+        "median": 0.009,
+        "rounds": 50
+      }
+    }
+  ]
+}
